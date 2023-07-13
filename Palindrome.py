@@ -1,12 +1,5 @@
-def isPalindrome(s):
-    return s == s[::-1]
- 
- 
-# Driver code
-s = input()
-ans = isPalindrome(s)
- 
-if ans:
+s=input()
+if s==s[::-1]:
     print("True")
 else:
     print("False")
