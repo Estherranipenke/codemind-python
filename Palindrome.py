@@ -1,5 +1,5 @@
-s=input()
-if s==s[::-1]:
+n=input()
+if n==n[::-1]:
     print("True")
 else:
     print("False")
