@@ -1,9 +1,10 @@
 n=int(input())
-l=[]
-for i in range(1,n):
+sum=1
+for i in range(2,n):
     if n%i==0:
-        l.append(i)
-if sum(l)>n:
+        sum=sum+i
+if sum>n:
     print("True")
 else:
     print("False")
+    
